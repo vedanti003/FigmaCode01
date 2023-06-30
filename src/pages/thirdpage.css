@@ -1,0 +1,37 @@
+.container3 {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .top-part {
+    flex: 35%;
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+  
+  .bottom-part {
+    flex: 65%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .premium-card {
+    flex: 30%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-right: 10px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  
+  /* Additional styling for the unordered list */
+  ul {
+    margin: 10px 0;
+    padding-left: 20px;
+  }
+  

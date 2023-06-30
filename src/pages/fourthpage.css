@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .top-part {
+    flex: 30%;
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+  
+  .bottom-part {
+    flex: 70%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .testimonial {
+    width: 30%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .profile-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .testimonial-info {
+    margin-top: 10px;
+  }
+  
+  .rating {
+    color: yellow;
+    margin-bottom: 10px;
+  }
+  
+  .star {
+    margin-right: 3px;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
